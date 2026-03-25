@@ -1,0 +1,10 @@
+name: Mi Primer Workflow
+on: [push]
+jobs:
+    saludar:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Decir Hola
+              run: echo "Hola Mundo"
+            - name: Dame la fecha
+              run: date

@@ -1,0 +1,10 @@
+name: Imprimir version de python
+on: [push]
+jobs:
+    imprimir:
+        runs-on: ubuntu-latest
+        steps:
+            - name: imprimir python
+              run: python --version
+            - name: imprimir nombre de usuario que hizo push
+              run: echo ${{github.actor}}

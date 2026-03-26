@@ -1,5 +1,5 @@
 name: Imprimir version de python
-on: [push]
+on: workflow_dispatch
 jobs:
     imprimir:
         runs-on: ubuntu-latest
